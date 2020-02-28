@@ -1,0 +1,37 @@
+.root{
+	-fx-background-color: linear-gradient(to bottom, #AAAAAA, #333333);
+}
+.label{
+	-fx-text-fill: white;
+	-fx-font-family: Roboto, Arial, sans-serif;
+	-fx-font-size: 12;
+	-fx-font-weight: 700;
+	-fx-effect: dropshadow(gaussian, black, 10, 0.3, -3, 3)
+}
+
+.text-field, .text-area{
+	-fx-font-family: Roboto, Arial, sans-serif;
+	-fx-effect: dropshadow(gaussian, black, 10, 0.3, -3, 3)
+}
+
+.text-area{
+	fx-text-alignment: center;
+}
+.button{
+	-fx-font-family: Roboto, Arial, sans-serif;
+	-fx-background-color: #8888FF;
+	-fx-text-fill: white;
+	-fx-font-weight: 700;
+	-fx-effect: dropshadow(gaussian, black, 10, 0.3, -3, 3)
+}
+.button:hover{
+	-fx-background-color: #AAAAFF;
+}
+.button:disabled{
+	-fx-background-color: #666666;
+	-fx-text-fill: #BBBBBB;
+	-fx-opacity: 1;
+}
+.button:pressed{
+	-fx-background-color: #EEEEEE;
+}
